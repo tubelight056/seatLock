@@ -1,0 +1,20 @@
+.PerSeat {
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-color: var(--bg-red);
+  margin: 5px;
+  padding: 10px 5px;
+  color: var(--bg-gray);
+  cursor: pointer;
+}
+
+.occupied {
+  background-color: var(--bg-red);
+}
+
+.containerslot {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  text-align: center;
+}

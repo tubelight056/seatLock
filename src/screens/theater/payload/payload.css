@@ -1,0 +1,28 @@
+.seatss {
+  padding: 10px;
+  background-color: var(--bg-red);
+  border-radius: 0.5rem;
+  margin: 5px;
+  display: inline-flex;
+  grid-template-rows: repeat(minmax(2, 10), 100px);
+}
+.billbox {
+  margin: 10%;
+  padding: 5%;
+  border-radius: 0.5rem;
+  border: 5px solid;
+}
+
+.label {
+  font-family: var(--ft-third);
+  color: var(--bg-red);
+}
+
+.billinnerbox p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.billh1 {
+  text-align: center;
+}

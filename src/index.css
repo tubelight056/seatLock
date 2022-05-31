@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee&family=Covered+By+Your+Grace&family=Inter:wght@700&family=Rammetto+One&family=Source+Code+Pro:wght@500&display=swap");
+:root {
+  --ft-primary: "Alfa Slab One", cursive;
+  --ft-secondary: "Covered By Your Grace", cursive;
+  --ft-third: "Rammetto One", cursive;
+
+  /* font-family: 'Alfa Slab One', cursive;
+
+  font-family: 'Bungee', cursive;
+
+  font-family: 'Covered By Your Grace', cursive;
+
+  font-family: 'Inter', sans-serif;
+
+  font-family: 'Rammetto One', cursive;
+ */
+  font-family: "Source Code Pro", monospace;
+  --bg-white: #fdfffc;
+  --bg-violet: #b14aed;
+  --bg-gray: #1e2019;
+  /* #373f51; */
+  --bg-red: #e63946;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--bg-primary);
+}
+
+h1 {
+  font-size: clamp(2.338rem, calc(12px + 3.025vw), 3.163rem);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: clamp(1.925rem, calc(12px + 2.2vw), 2.475rem);
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: clamp(1.568rem, calc(12px + 1.65vw), 2.063rem);
+  line-height: 1.1;
+}
+
+h4,
+input,
+li,
+label {
+  font-size: clamp(1.375rem, calc(12px + 1.1vw), 1.65rem);
+  line-height: 1.1;
+}
+
+p {
+  font-size: clamp(1.265rem, calc(12px + 0.66vw), 1.375rem);
+  line-height: 1.1;
+}

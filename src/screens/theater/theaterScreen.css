@@ -1,0 +1,45 @@
+.titleh1 {
+  padding: 20px;
+  font-family: var(--ft-third);
+  display: inline-block;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.lang,
+.description,
+.date,
+.vote,
+.count,
+.address,
+.SlotTitle {
+  padding: 20px;
+  font-family: var(--ft-secondary);
+}
+
+.bold,
+.SlotTitle {
+  font-family: var(--ft-third);
+  color: var(--bg-red);
+}
+
+.SlotTitle {
+  font-size: large;
+}
+
+.perSlot {
+  padding: 10px;
+}
+
+.btn {
+  text-align: center;
+  font-family: var(--ft-third);
+  padding: 20px;
+  font-size: small;
+  margin: 20px;
+  background-color: var(--bg-red);
+  border-radius: 0.5rem;
+  border: 0px solid;
+}
+.btncontainer {
+  text-align: center;
+}

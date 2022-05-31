@@ -1,0 +1,21 @@
+.list {
+  /* margin-right: 500px; */
+  /* translate: rotate(90deg) translateY(-100vh);
+  overflow-x: visible;
+  width: 300px; */
+  /* width: 20vw; */
+  /* transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden; */
+
+  display: inline-block;
+  grid-template-columns: repeat(minmax(5, 6), 200px);
+}
+.searchbox {
+  margin: 20px;
+  font-size: medium;
+  margin-top: 200px;
+}
+.label {
+}

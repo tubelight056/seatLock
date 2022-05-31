@@ -1,0 +1,18 @@
+.titleh1 {
+  padding: 20px;
+  font-family: var(--ft-third);
+  display: inline-block;
+}
+.lang,
+.description,
+.date,
+.vote,
+.count {
+  padding: 20px;
+  font-family: var(--ft-secondary);
+}
+
+.bold {
+  font-family: var(--ft-third);
+  color: var(--bg-red);
+}

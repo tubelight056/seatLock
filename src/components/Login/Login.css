@@ -1,0 +1,90 @@
+.louterContainer {
+  font-family: var(--ft-primary);
+
+  font-family: var(--ft-secondary);
+
+  font-family: var(--ft-primary);
+  max-width: 400px;
+  color: var(--bg-gray);
+  background-color: var(--bg-white);
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+}
+
+.loginh1 {
+  font-size: 2rem;
+  color: var(--bg-red);
+  font-family: var(--ft-primary);
+  margin: 10px 0 10px 0;
+}
+
+.leachItem h1 {
+  display: inline-block;
+  font-family: var(--ft-secondary);
+  font-size: 18px;
+  margin: 15px 0 10px 0;
+}
+
+.leachItem .Input {
+  padding: 10px;
+  width: 80%;
+  display: block;
+  font-family: var(--ft-secondary);
+  border-radius: 0.5rem;
+  border-style: solid;
+}
+
+.leachItem .Input:focus {
+  border-width: 2px 2px 2px 2px;
+  border-color: var(--bg-red);
+}
+
+.lbutton {
+  background-color: var(--bg-red);
+  border-color: var(--bg-red);
+  padding: 16px 60px;
+  margin: 50px 0 10px 0;
+  border-radius: 0.5rem;
+  border-style: solid;
+  font-weight: 700;
+  color: var(--bg-white);
+}
+
+.lbutton:active {
+  background-color: var(--bg-white);
+  color: var(--bg-red);
+}
+
+.lbandge {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--bg-red);
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes pulser {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.lpulser {
+  width: inherit;
+  color: #ffffff;
+  height: inherit;
+  border-radius: inherit;
+  background-color: inherit;
+  animation: pulser 1s ease-out infinite;
+}
+
+.lbadgep {
+  position: relative;
+  z-index: 2;
+}

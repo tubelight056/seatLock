@@ -1,0 +1,33 @@
+.outerMovieCard {
+  /* margin-right: 200px; */
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  border: 0 solid;
+  background-color: var(--bg-gray);
+  color: var(--bg-white);
+  margin: 1rem;
+  display: grid;
+  grid-template-rows: 200px 60px 30px;
+  grid-row-gap: 10px;
+  width: 150px;
+  /* max-height: 200px; */
+  /* transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left; */
+}
+.title {
+  font-family: var(--ft-third);
+  margin: 0px;
+  line-height: 1.5rem;
+}
+.poster {
+  height: 200px;
+  width: 150px;
+  border-radius: 0.5rem;
+}
+.geners {
+  color: var(--bg-gray);
+  font-family: var(--ft-third);
+}
