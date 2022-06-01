@@ -9,16 +9,18 @@ const SlotCard = (props) => {
       seat.seats.forEach((chair) => {
         chair.slot = props.i;
         let currentCount = JSON.parse(localStorage.getItem("current_register"));
-        currentCount.forEach((data) => {
-          if (
-            data.line === chair.line &&
-            data.column === chair.column &&
-            data.slot === chair.slot
-          ) {
-            chair.status = "occupied";
-            chair.occupiedBy = "me";
-          }
-        });
+        if (currentCount != null) {
+          currentCount.forEach((data) => {
+            if (
+              data.line === chair.line &&
+              data.column === chair.column &&
+              data.slot === chair.slot
+            ) {
+              chair.status = "occupied";
+              chair.occupiedBy = "me";
+            }
+          });
+        }
       })
     );
 
